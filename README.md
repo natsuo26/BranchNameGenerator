@@ -10,7 +10,7 @@ To run follow the below steps after once the build is a success and you have the
 - Click on environment variables and then in the section (in bottom section) of system variables select on Variable with name Path and click on edit
 - Click on "New" and add the path to your folder where your exe is located so in this example it will be "C:\SystemVariables\" or you can also browse it and then "OK" and "OK" and then once everything is saved 
 - Now open a terminal and type the name of your .exe name and so the command will be  like: `<your exe name> <prefix> <JIRA issue name>` so it will be 
-- e.g: BranchNameGenerator defect ISSUE-1453 this is a defect
+- e.g: ```BranchNameGenerator defect ISSUE-1453 this is a defect```
 - expected o/p: defect/ISSUE-1453_this_is_a_defect 
 - the output will be copied to your clipboard so you can close the terminal and directly go and paste it wherever you want to
 
