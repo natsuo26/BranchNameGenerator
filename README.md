@@ -14,3 +14,6 @@ To run follow the below steps after once the build is a success and you have the
 - expected o/p: defect/ISSUE-1453_this_is_a_defect 
 - the output will be copied to your clipboard so you can close the terminal and directly go and paste it wherever you want to
 
+## Future changes:
+- support for UNICODE characters as currently only supporting ASCII characters for branch names
+- Add more restriction to characters like: not allowing substring: @{ and character [ in the branch name
